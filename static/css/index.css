@@ -2,6 +2,18 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.evcs-optim {
+  font-size: 1.2em; /* Make EVCS-OPTIM slightly larger */
+  font-weight: bold; /* Optional: makes it bold */
+  display: block; /* Ensure it's on a new line */
+  margin-bottom: -0.8em; /* Decrease space below EVCS-OPTIM */
+}
+
+.rest-of-title {
+  font-size: 0.8em; /* Make the rest of the title smaller */
+  line-height: 1; /* Control the space between lines */
+}
+
 
 .footer .icon-link {
     font-size: 25px;
@@ -27,9 +39,6 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
-
-.publication-title {
-}
 
 .publication-banner {
   max-height: parent;
